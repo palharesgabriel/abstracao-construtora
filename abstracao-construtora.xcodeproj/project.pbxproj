@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE70CD482089160100239852 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD472089160100239852 /* main.swift */; };
+		BE70CD582089165700239852 /* Servente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD4E2089165600239852 /* Servente.swift */; };
+		BE70CD592089165700239852 /* Pedreiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD4F2089165600239852 /* Pedreiro.swift */; };
+		BE70CD5A2089165700239852 /* Empreiteira.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD502089165600239852 /* Empreiteira.swift */; };
+		BE70CD5B2089165700239852 /* MestreDeObras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD512089165600239852 /* MestreDeObras.swift */; };
+		BE70CD5C2089165700239852 /* FasesDeConstrucao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD522089165700239852 /* FasesDeConstrucao.swift */; };
+		BE70CD5D2089165700239852 /* Engenheiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD532089165700239852 /* Engenheiro.swift */; };
+		BE70CD5E2089165700239852 /* Profissional.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD542089165700239852 /* Profissional.swift */; };
+		BE70CD5F2089165700239852 /* Venderdor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD552089165700239852 /* Venderdor.swift */; };
+		BE70CD602089165700239852 /* Predio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD562089165700239852 /* Predio.swift */; };
+		BE70CD612089165700239852 /* Construcao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD572089165700239852 /* Construcao.swift */; };
+		BE70CD662089165E00239852 /* Andar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD622089165E00239852 /* Andar.swift */; };
+		BE70CD672089165E00239852 /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD632089165E00239852 /* Cliente.swift */; };
+		BE70CD682089165E00239852 /* Apartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD642089165E00239852 /* Apartamento.swift */; };
+		BE70CD692089165E00239852 /* Arquiteto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70CD652089165E00239852 /* Arquiteto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE70CD422089160100239852 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE70CD442089160100239852 /* abstracao-construtora */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "abstracao-construtora"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE70CD472089160100239852 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BE70CD4E2089165600239852 /* Servente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Servente.swift; sourceTree = "<group>"; };
+		BE70CD4F2089165600239852 /* Pedreiro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedreiro.swift; sourceTree = "<group>"; };
+		BE70CD502089165600239852 /* Empreiteira.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Empreiteira.swift; sourceTree = "<group>"; };
+		BE70CD512089165600239852 /* MestreDeObras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MestreDeObras.swift; sourceTree = "<group>"; };
+		BE70CD522089165700239852 /* FasesDeConstrucao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FasesDeConstrucao.swift; sourceTree = "<group>"; };
+		BE70CD532089165700239852 /* Engenheiro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engenheiro.swift; sourceTree = "<group>"; };
+		BE70CD542089165700239852 /* Profissional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profissional.swift; sourceTree = "<group>"; };
+		BE70CD552089165700239852 /* Venderdor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venderdor.swift; sourceTree = "<group>"; };
+		BE70CD562089165700239852 /* Predio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predio.swift; sourceTree = "<group>"; };
+		BE70CD572089165700239852 /* Construcao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Construcao.swift; sourceTree = "<group>"; };
+		BE70CD622089165E00239852 /* Andar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Andar.swift; sourceTree = "<group>"; };
+		BE70CD632089165E00239852 /* Cliente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
+		BE70CD642089165E00239852 /* Apartamento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apartamento.swift; sourceTree = "<group>"; };
+		BE70CD652089165E00239852 /* Arquiteto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arquiteto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE70CD412089160100239852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE70CD3B2089160100239852 = {
+			isa = PBXGroup;
+			children = (
+				BE70CD462089160100239852 /* abstracao-construtora */,
+				BE70CD452089160100239852 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE70CD452089160100239852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE70CD442089160100239852 /* abstracao-construtora */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE70CD462089160100239852 /* abstracao-construtora */ = {
+			isa = PBXGroup;
+			children = (
+				BE70CD472089160100239852 /* main.swift */,
+				BE70CD572089165700239852 /* Construcao.swift */,
+				BE70CD502089165600239852 /* Empreiteira.swift */,
+				BE70CD532089165700239852 /* Engenheiro.swift */,
+				BE70CD522089165700239852 /* FasesDeConstrucao.swift */,
+				BE70CD512089165600239852 /* MestreDeObras.swift */,
+				BE70CD4F2089165600239852 /* Pedreiro.swift */,
+				BE70CD562089165700239852 /* Predio.swift */,
+				BE70CD542089165700239852 /* Profissional.swift */,
+				BE70CD4E2089165600239852 /* Servente.swift */,
+				BE70CD552089165700239852 /* Venderdor.swift */,
+				BE70CD622089165E00239852 /* Andar.swift */,
+				BE70CD642089165E00239852 /* Apartamento.swift */,
+				BE70CD652089165E00239852 /* Arquiteto.swift */,
+				BE70CD632089165E00239852 /* Cliente.swift */,
+			);
+			path = "abstracao-construtora";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE70CD432089160100239852 /* abstracao-construtora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE70CD4B2089160100239852 /* Build configuration list for PBXNativeTarget "abstracao-construtora" */;
+			buildPhases = (
+				BE70CD402089160100239852 /* Sources */,
+				BE70CD412089160100239852 /* Frameworks */,
+				BE70CD422089160100239852 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "abstracao-construtora";
+			productName = "abstracao-construtora";
+			productReference = BE70CD442089160100239852 /* abstracao-construtora */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE70CD3C2089160100239852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ada 2018";
+				TargetAttributes = {
+					BE70CD432089160100239852 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE70CD3F2089160100239852 /* Build configuration list for PBXProject "abstracao-construtora" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE70CD3B2089160100239852;
+			productRefGroup = BE70CD452089160100239852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE70CD432089160100239852 /* abstracao-construtora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE70CD402089160100239852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE70CD5C2089165700239852 /* FasesDeConstrucao.swift in Sources */,
+				BE70CD5F2089165700239852 /* Venderdor.swift in Sources */,
+				BE70CD5D2089165700239852 /* Engenheiro.swift in Sources */,
+				BE70CD592089165700239852 /* Pedreiro.swift in Sources */,
+				BE70CD662089165E00239852 /* Andar.swift in Sources */,
+				BE70CD482089160100239852 /* main.swift in Sources */,
+				BE70CD692089165E00239852 /* Arquiteto.swift in Sources */,
+				BE70CD682089165E00239852 /* Apartamento.swift in Sources */,
+				BE70CD612089165700239852 /* Construcao.swift in Sources */,
+				BE70CD582089165700239852 /* Servente.swift in Sources */,
+				BE70CD602089165700239852 /* Predio.swift in Sources */,
+				BE70CD5B2089165700239852 /* MestreDeObras.swift in Sources */,
+				BE70CD5E2089165700239852 /* Profissional.swift in Sources */,
+				BE70CD672089165E00239852 /* Cliente.swift in Sources */,
+				BE70CD5A2089165700239852 /* Empreiteira.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE70CD492089160100239852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE70CD4A2089160100239852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BE70CD4C2089160100239852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z5CB5T6U7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		BE70CD4D2089160100239852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z5CB5T6U7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE70CD3F2089160100239852 /* Build configuration list for PBXProject "abstracao-construtora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE70CD492089160100239852 /* Debug */,
+				BE70CD4A2089160100239852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE70CD4B2089160100239852 /* Build configuration list for PBXNativeTarget "abstracao-construtora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE70CD4C2089160100239852 /* Debug */,
+				BE70CD4D2089160100239852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE70CD3C2089160100239852 /* Project object */;
+}
